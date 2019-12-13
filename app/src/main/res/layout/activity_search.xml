@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s"
+    >
+
+
+
+
+    <TextView
+        android:id="@+id/nama1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_city"
+        android:layout_marginTop="400dp"
+        android:textSize="27sp"
+        android:text="Highlight Manchester City"
+        android:textColor="#FFFFFF"
+        style="@style/btnStyleOrange"
+        android:background="#07000000"/>
+    <TextView
+        android:id="@+id/penjelasan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama1"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:text="Saksikan dan jangan sampai"
+        android:textColor="#FFFFFF"
+        style="@style/btnStyleOrange"
+        android:background="#07000000"/>
+
+    <EditText
+        android:id="@+id/field_browse"
+        android:layout_below="@+id/penjelasan"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:hint="Masukkan Kata Pencarian ..."
+        android:textColor="#000"
+        android:inputType="textCapWords"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        style="@style/btnStyleWhite"
+        />
+
+    <Button
+        android:id="@+id/submitBrowse"
+        android:layout_below="@+id/penjelasan"
+        android:layout_toRightOf="@+id/field_browse"
+        android:layout_width="118dp"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:background="#ffffff"
+        android:text="CARI"
+        android:paddingRight="12dp"
+        />
+
+
+</RelativeLayout>

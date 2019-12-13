@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/s"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/logo_city"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_margin="50dp"
+        android:src="@drawable/city"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_city"
+        android:textSize="40sp"
+        android:text="Menu Utama"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        style="@style/btnStyleOrange"
+        android:background="#07000000"
+        />
+
+
+
+    <ImageButton
+        android:id="@+id/btn_order"
+        android:background="@drawable/tickets"
+        android:layout_below="@id/nama"
+        android:layout_marginTop="15dp"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

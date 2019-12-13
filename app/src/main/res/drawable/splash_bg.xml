@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/splash"/>
+
+    <item android:gravity="bottom|center" android:bottom="100dp" android:width="230dp" android:height="120dp">
+        <bitmap
+            android:gravity="fill_horizontal|fill_vertical|bottom"
+            android:src="@drawable/marvel_logo"/>
+    </item>
+
+</layer-list>
